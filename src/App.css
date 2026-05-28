@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #f5f5f5;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.app-titulo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #111;
+}
+
+nav {
+  background: #fff;
+  padding: 16px 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.form { display: flex; gap: 12px; flex-wrap: wrap; }
+
+.input {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  flex: 1;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.input:focus { border-color: #111; }
+
+.btn-verde {
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-verde:hover { background: #333; }
+
+.tabela { width: 100%; border-collapse: collapse; }
+
+.tabela th {
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 0.78rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #eee;
+}
+
+.tabela td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.95rem;
+}
+
+.btn-vermelho {
+  background: transparent;
+  color: #e53935;
+  border: 1px solid #e53935;
+  border-radius: 6px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.btn-vermelho:hover { background: #e53935; color: #fff; }
+
+.vazio { color: #aaa; font-size: 0.9rem; }
