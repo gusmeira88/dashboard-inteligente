@@ -1,0 +1,20 @@
+{
+  "name": "Dashboard Inteligente",
+  "short_name": "Dashboard",
+  "description": "Painel analítico para gestão de catálogo de produtos",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7fb",
+  "theme_color": "#0f172a",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
